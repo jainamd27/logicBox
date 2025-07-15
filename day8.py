@@ -5,6 +5,7 @@ while True:
     print("2. Pyramid")
     print("3. Left-angled Triangle")
     print("4. Analyze a Range of Numbers")
+    print('Please enter q to exit the program')
     choice = input("Enter your choice: ")
     if choice == "1":
         for i in range(1, 6):
@@ -31,3 +32,6 @@ while True:
 
         total = (s_range + e_range)/2
         print(int(total))
+    elif choice == "q":
+        print("Program Dismissed!")
+        break
